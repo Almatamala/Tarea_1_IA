@@ -2,7 +2,8 @@ import graph as g
 import method as m
 
 def main():
-    data = g.load_edge('graph.txt')
+    arg = input('ingrese el nombre del archivo: ')
+    data = g.load_edge(arg)
     init,goal,nodes,edge = g.create_edge(data)
     #path, total_cost, expand_count = m.Deep(init, goal, nodes, edge)
     #path, total_cost, expand_count = m.Greedy(init, goal, nodes, edge)
