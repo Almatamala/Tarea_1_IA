@@ -9,3 +9,5 @@ Goal: <nodo_objetivo> // nodo objetivo
 
 cuando aparesca en la consola "ingrese el nombre del archivo: "
 luego tendran que ingresar el metodo que se desea usar utilizando los comandos "deep" "greedy" "ucost" "astar" cuales busqueda en prfundidad , busqueda greedy seria , busqueda en costo uniforme y busqueda A* respectivamente. En caso de no ingresar ninguno de estos comando la consola seguira exigiendolo.
+
+despues la consola mostrara en la pantalla el camino, el costo y el contador de expansiones.
