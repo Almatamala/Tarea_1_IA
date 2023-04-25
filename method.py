@@ -106,7 +106,6 @@ def a_star(init, goal, nodes, edge): #busqueda A*
 
         # Ordena la lista segun la funcion f(n) = g(n) + h(n) 
         node_list.sort(key=lambda f: f[1] + nodes[f[0]])
-        print(node_list)
         # Obtiene el nodo con menor costo
         node, cost, path = node_list.pop(0)
         # Si el nodo es el objetivo, retorna el camino y el costo
